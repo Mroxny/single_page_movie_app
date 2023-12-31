@@ -1,8 +1,31 @@
 {
-    "movies": [
-    {"id": 1, "title": "Film 1", "year": 2022},
-    {"id": 2, "title": "Film 2", "year": 2020},
-    {"id": 3, "title": "Film 3", "year": 2018}
-    ]
-}
-  
+    "posts": [
+      {
+        "id": 1,
+        "title": "Post 1"
+      },
+      {
+        "id": 2,
+        "title": "Post 2"
+      },
+      {
+        "id": 3,
+        "title": "Post 3"
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      },
+      {
+        "id": 2,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
